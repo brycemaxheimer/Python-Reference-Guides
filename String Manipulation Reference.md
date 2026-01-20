@@ -680,7 +680,3 @@ r'end$'      # line end
 text.encode('utf-8')
 bytes.decode('utf-8')
 ```
-
----
-
-**Previous**: [File I/O](https://claude.ai/chat/03_file_io.md) | **Next**: [Network Programming](https://claude.ai/chat/05_network_programming.md)
