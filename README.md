@@ -1,7 +1,7 @@
 # Python-Reference-Guides
 > **Comprehensive Python reference for SANS SEC573 and GIAC Python Coder (GPYC) exam preparation**
 
-## 📚 About This Guide
+## About This Guide
 
 This reference guide contains condensed, practical Python knowledge organized by topic. It's designed to help you:
 
@@ -10,7 +10,7 @@ This reference guide contains condensed, practical Python knowledge organized by
 - Have quick reference material during the open-book GPYC exam
 - Learn Python for cybersecurity and penetration testing
 
-## 📖 Table of Contents
+## Table of Contents
 
 ### [01. Python Fundamentals]
 
@@ -102,7 +102,7 @@ This reference guide contains condensed, practical Python knowledge organized by
 
 ---
 
-## 🎯 GPYC Exam Details
+## GPYC Exam Details
 
 ### Exam Format
 
@@ -128,7 +128,7 @@ This reference guide contains condensed, practical Python knowledge organized by
 
 ### Preparation Strategy
 
-#### 1. **Build Your Index** 📑
+#### 1. **Build Your Index** 
 
 Since the exam is open book, create a well-organized index:
 
@@ -137,21 +137,21 @@ Since the exam is open book, create a well-organized index:
 - Mark frequently used patterns
 - Include page numbers in your notes
 
-#### 2. **Practice with pyWars** 💻
+#### 2. **Practice with pyWars** 
 
 - Complete all pyWars challenges
 - Focus on understanding, not just solving
 - Build your own tools and scripts
 - Time yourself on challenges
 
-#### 3. **Hands-On Coding** ⌨️
+#### 3. **Hands-On Coding** 
 
 - Don't just read - actually write code
 - Practice common patterns repeatedly
 - Build small projects combining multiple concepts
 - Test your code with edge cases
 
-#### 4. **Study Timeline** 📅
+#### 4. **Study Timeline** 
 
 - **2-3 months** average preparation time
 - **Week 1-2**: Fundamentals, data structures, file I/O
@@ -162,7 +162,7 @@ Since the exam is open book, create a well-organized index:
 
 ---
 
-## 🔑 Quick Reference Patterns
+## Quick Reference Patterns
 
 ### Most Common Operations
 
@@ -202,7 +202,7 @@ files = list(Path('.').rglob('*.txt'))
 
 ---
 
-## 📦 Essential Libraries to Know
+## Essential Libraries to Know
 
 ### Standard Library (Built-in)
 
@@ -228,7 +228,7 @@ files = list(Path('.').rglob('*.txt'))
 
 ---
 
-## 💡 Study Tips
+## Study Tips
 
 ### For the Exam
 
@@ -259,7 +259,7 @@ files = list(Path('.').rglob('*.txt'))
 
 ---
 
-## 🔗 Additional Resources
+## Additional Resources
 
 ### Official Documentation
 
@@ -283,7 +283,7 @@ files = list(Path('.').rglob('*.txt'))
 
 ---
 
-## ✅ Pre-Exam Checklist
+## Pre-Exam Checklist
 
 ### One Week Before
 
@@ -311,7 +311,7 @@ files = list(Path('.').rglob('*.txt'))
 
 ---
 
-## 📝 Notes
+## Notes
 
 ### How to Use This Guide
 
@@ -336,18 +336,3 @@ files = list(Path('.').rglob('*.txt'))
 - Share knowledge with others preparing
 
 ---
-
-## 🎓 Good Luck!
-
-Remember: The GPYC exam tests practical Python skills. Focus on:
-
-- **Understanding** over memorization
-- **Hands-on practice** over passive reading
-- **Pattern recognition** in code
-- **Problem-solving** with Python
-
-You've got this! 🐍
-
----
-
-**Created for GPYC/pyWars preparation** _Last updated: January 2026_
