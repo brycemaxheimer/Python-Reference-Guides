@@ -676,5 +676,3 @@ with gzip.open('file.txt.gz', 'rt') as f:
 ```
 
 ---
-
-**Previous**: [Data Structures](https://claude.ai/chat/02_data_structures.md) | **Next**: [String Manipulation](https://claude.ai/chat/04_string_manipulation.md)
