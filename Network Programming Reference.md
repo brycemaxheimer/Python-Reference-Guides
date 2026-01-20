@@ -819,5 +819,3 @@ send(packet)
 ```
 
 ---
-
-**Previous**: [String Manipulation](https://claude.ai/chat/04_string_manipulation.md) | **Next**: [Security & Pentesting](https://claude.ai/chat/06_security_pentesting.md)
