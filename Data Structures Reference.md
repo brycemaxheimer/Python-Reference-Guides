@@ -595,5 +595,3 @@ queue.popleft()        # pop left
 *Appending to end of list is O(1), inserting elsewhere is O(n)
 
 ---
-
-**Previous**: [Python Fundamentals](https://claude.ai/chat/01_python_fundamentals.md) | **Next**: [File I/O](https://claude.ai/chat/03_file_io.md)
