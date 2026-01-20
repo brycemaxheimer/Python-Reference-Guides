@@ -485,7 +485,3 @@ for char in text:
     if char == 'l':
         count += 1
 ```
-
----
-
-**Next**: [Data Structures](https://claude.ai/chat/02_data_structures.md)
