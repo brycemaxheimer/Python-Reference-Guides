@@ -1,14 +1,4 @@
 # Python-Reference-Guides
-> **Comprehensive Python reference for SANS SEC573 and GIAC Python Coder (GPYC) exam preparation**
-
-## About This Guide
-
-This reference guide contains condensed, practical Python knowledge organized by topic. It's designed to help you:
-
-- Prepare for the GIAC Python Coder (GPYC) certification exam
-- Complete pyWars challenges efficiently
-- Have quick reference material during the open-book GPYC exam
-- Learn Python for cybersecurity and penetration testing
 
 ## Table of Contents
 
@@ -259,17 +249,9 @@ files = list(Path('.').rglob('*.txt'))
 
 ---
 
-## Additional Resources
-
-### Official Documentation
-
-- [Python Official Docs](https://docs.python.org/3/)
-- [GIAC GPYC Certification](https://www.giac.org/certifications/python-coder-gpyc/)
-- [SANS SEC573 Course](https://www.sans.org/cyber-security-courses/automating-information-security-with-python/)
-
 ### Practice Platforms
 
-- pyWars (SANS course platform)
+- pyWars
 - [HackerRank Python](https://www.hackerrank.com/domains/python)
 - [LeetCode](https://leetcode.com/)
 - [Project Euler](https://projecteuler.net/)
@@ -280,59 +262,5 @@ files = list(Path('.').rglob('*.txt'))
 - "Python Crash Course" - Eric Matthes
 - "Fluent Python" - Luciano Ramalho
 - "Black Hat Python" - Justin Seitz
-
----
-
-## Pre-Exam Checklist
-
-### One Week Before
-
-- [ ] Complete all pyWars challenges
-- [ ] Print and organize reference materials
-- [ ] Create tabbed index of key topics
-- [ ] Take at least 2 practice exams
-- [ ] Review weak areas identified in practice
-
-### Day Before
-
-- [ ] Review quick reference cards
-- [ ] Organize printed materials with tabs
-- [ ] Test your index - can you find topics quickly?
-- [ ] Get good sleep!
-
-### Exam Day
-
-- [ ] Bring printed materials (well-organized!)
-- [ ] Bring calculator (if allowed)
-- [ ] Read questions carefully
-- [ ] Manage your time (2 hours for 75 questions = ~1.6 min/question)
-- [ ] Mark difficult questions and return to them
-- [ ] Use your reference materials efficiently
-
----
-
-## Notes
-
-### How to Use This Guide
-
-**During Study:**
-
-- Read each section thoroughly
-- Type out the examples yourself
-- Modify examples to understand behavior
-- Complete related pyWars challenges
-
-**During the Exam:**
-
-- Use the Table of Contents to find topics quickly
-- Reference code patterns for syntax
-- Don't get stuck - move on and come back
-- Trust your preparation
-
-**After Certification:**
-
-- Keep these references for real-world work
-- Continue building Python skills
-- Share knowledge with others preparing
 
 ---
