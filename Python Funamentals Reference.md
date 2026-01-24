@@ -1,5 +1,3 @@
-> **For GPYC/pyWars Preparation**
-
 ## Variables and Assignment
 
 ### Variable Naming Rules
