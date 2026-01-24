@@ -1,5 +1,3 @@
-> **For GPYC/pyWars Preparation**
-
 ## Object-Oriented Programming (OOP)
 
 ### Classes and Objects
