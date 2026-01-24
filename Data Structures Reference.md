@@ -1,5 +1,3 @@
-> **For GPYC/pyWars Preparation**
-
 ## Lists
 
 ### Creating Lists
