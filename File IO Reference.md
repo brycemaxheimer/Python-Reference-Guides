@@ -672,5 +672,3 @@ ext = Path('file.txt').suffix  # '.txt'
 with gzip.open('file.txt.gz', 'rt') as f:
     content = f.read()
 ```
-
----
