@@ -1,5 +1,3 @@
-> **For GPYC/pyWars Preparation**
-
 ## Basic File Operations
 
 ### Opening Files
