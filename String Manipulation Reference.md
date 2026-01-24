@@ -1,5 +1,3 @@
-> **For GPYC/pyWars Preparation**
-
 ## String Basics
 
 ### Creating Strings
