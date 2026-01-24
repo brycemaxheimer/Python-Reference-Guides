@@ -1,5 +1,3 @@
-> **For GPYC/pyWars Preparation**
-
 ## Socket Programming
 
 ### TCP Sockets
