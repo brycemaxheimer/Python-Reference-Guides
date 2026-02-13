@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-### [01. Python Fundamentals]
+### 01. Python Fundamentals
 
 **Core Python concepts and syntax**
 
@@ -15,7 +15,7 @@
 - Lambda Functions
 - Variable Scope
 
-### [02. Data Structures]
+### 02. Data Structures
 
 **Lists, Dictionaries, Sets, and Tuples**
 
@@ -26,7 +26,7 @@
 - **Advanced Collections**: Counter, defaultdict, deque
 - Performance comparison and choosing the right structure
 
-### [03. File I/O]
+### 03. File I/O
 
 **Working with files and directories**
 
@@ -39,7 +39,7 @@
 - CSV and JSON files
 - Error handling for file operations
 
-### [04. String Manipulation]
+### 04. String Manipulation
 
 **String processing and text operations**
 
@@ -50,7 +50,7 @@
 - Text processing patterns
 - Performance tips
 
-### [05. Network Programming]
+### 05. Network Programming
 
 **Network communications and web interaction**
 
@@ -62,7 +62,7 @@
 - DNS operations
 - Common patterns (port scanning, downloading files)
 
-### [06. Security & Pentesting]
+### 06. Security & Pentesting
 
 **Security concepts and pentesting techniques**
 
@@ -76,7 +76,7 @@
 - Reverse engineering (decoding, extracting strings)
 - Creating executables (PyInstaller)
 
-### [07. Advanced Topics]
+### 07. Advanced Topics
 
 **Object-oriented programming and advanced concepts**
 
