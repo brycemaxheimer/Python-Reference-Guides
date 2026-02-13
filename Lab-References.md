@@ -21,15 +21,15 @@
 
 **Common Mistake:**
 ```python
-def lab225(data):
-    print(data.append("Pywars rocks"))  # Prints None!
+def function(data):
+    print(data.append("<no> rocks"))  # Prints None!
     pass
 ```
 
 **Correct Approach:**
 ```python
-def lab225(data):
-    data.append("Pywars rocks")
+def function(data):
+    data.append("<no> rocks")
     print(data)  # or return data
 ```
 
@@ -42,7 +42,7 @@ def lab225(data):
 
 **Initial Attempt (Missing Return):**
 ```python
-def lab229(data):
+def function(data):
     nums = range(1, 1000)
     evendiv = []
     for num in nums:
@@ -53,7 +53,7 @@ def lab229(data):
 
 **Correct Solution:**
 ```python
-def lab229(data):
+def function(data):
     nums = range(1, 1000)
     evendiv = []
     for num in nums:
@@ -69,7 +69,7 @@ def lab229(data):
 
 **Best Practice with List Comprehension:**
 ```python
-def lab229(data):
+def function(data):
     return [num for num in range(1, 1000) if num % data == 0]
 ```
 
@@ -235,14 +235,14 @@ def lab_solution(the_data):
 
 **Initial Attempt:**
 ```python
-def lab310(the_data):
+def function(the_data):
     file = open(the_data)
     return len(file.read())
 ```
 
 **Better with Context Manager:**
 ```python
-def lab310(the_data):
+def function(the_data):
     with open(the_data) as file:
         return len(file.read())
 ```
@@ -369,7 +369,7 @@ clientip = re.findall(r'\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b', the_data)
 ## Network Programming
 
 ### Socket Basics
-**Concepts covered in pyWars:**
+**Concepts covered in <no>:**
 
 **TCP Client:**
 ```python
@@ -400,7 +400,7 @@ client.close()
 ```python
 from Registry.Registry import Registry
 
-def lab430(the_data):
+def function(the_data):
     reg_hive = Registry(r"/home/student/Public/registry/SOFTWARE")
     key = reg_hive.open('Microsoft\\Windows NT\\CurrentVersion\\Winlogon')
     
@@ -425,7 +425,7 @@ def lab430(the_data):
 
 **Solution:**
 ```python
-def lab431(the_data):
+def function(the_data):
     reg_hive = Registry(r"/home/student/Public/registry/SOFTWARE")
     reg_root = reg_hive.root()
     sub_keys = reg_root.subkeys()
@@ -454,7 +454,7 @@ def lab431(the_data):
 
 **Common Mistake - Wrong Indentation:**
 ```python
-def lab432(the_data):
+def function(the_data):
     networks = []
     reg_key = reg_hive.open('Microsoft\\Windows NT\\CurrentVersion\\NetworkList\\Signatures\\Unmanaged')
     for key in reg_key.subkeys():
@@ -465,7 +465,7 @@ def lab432(the_data):
 
 **Correct Solution:**
 ```python
-def lab432(the_data):
+def function(the_data):
     networks = []
     reg_hive = Registry(r"/home/student/Public/registry/SOFTWARE")
     reg_key = reg_hive.open('Microsoft\\Windows NT\\CurrentVersion\\NetworkList\\Signatures\\Unmanaged')
@@ -500,7 +500,7 @@ Registry.Registry.RegistryKeyNotFoundException: Registry key not found: ROOT\ROO
 
 **Solution:**
 ```python
-def lab433(the_data):
+def function(the_data):
     reg_hive = Registry(r"/home/student/Public/registry/NTUSER.DAT")
     
     # Remove "ROOT\\" prefix if present
@@ -539,7 +539,7 @@ TypeError: unsupported operand type(s) for ^: 'str' and 'int'
 
 **Working Solution:**
 ```python
-import pywars
+import <no>
 from itertools import cycle
 
 def xor_crypt(data_bytes, key_bytes):
