@@ -91,18 +91,6 @@
 - Performance optimization
 
 ---
-
-## GPYC Exam Details
-
-### Exam Format
-
-- **Questions**: 75 multiple-choice questions
-- **Duration**: 2 hours (120 minutes)
-- **Passing Score**: 67%
-- **Format**: Open book (bring printed materials!)
-- **Cost**: $979
-- **Validity**: 4 years
-
 ### Key Topics Covered
 
 1. Python fundamentals and control structures
@@ -115,42 +103,6 @@
 8. Data analysis and log parsing
 9. Security concepts and pentesting basics
 10. Creating tools and executables
-
-### Preparation Strategy
-
-#### 1. **Build Your Index** 
-
-Since the exam is open book, create a well-organized index:
-
-- Print these reference guides
-- Add tabs for quick section access
-- Mark frequently used patterns
-- Include page numbers in your notes
-
-#### 2. **Practice with pyWars** 
-
-- Complete all pyWars challenges
-- Focus on understanding, not just solving
-- Build your own tools and scripts
-- Time yourself on challenges
-
-#### 3. **Hands-On Coding** 
-
-- Don't just read - actually write code
-- Practice common patterns repeatedly
-- Build small projects combining multiple concepts
-- Test your code with edge cases
-
-#### 4. **Study Timeline** 
-
-- **2-3 months** average preparation time
-- **Week 1-2**: Fundamentals, data structures, file I/O
-- **Week 3-4**: Strings, regex, network programming
-- **Week 5-6**: Security, web scraping, OOP
-- **Week 7-8**: Advanced topics, practice tests
-- **Week 9-12**: Review, pyWars challenges, mock exams
-
----
 
 ## Quick Reference Patterns
 
@@ -218,40 +170,8 @@ files = list(Path('.').rglob('*.txt'))
 
 ---
 
-## Study Tips
-
-### For the Exam
-
-1. **Know your fundamentals cold** - data types, control flow, functions
-2. **Master file I/O** - very common in exam questions
-3. **Practice regex** - appears frequently
-4. **Understand dictionaries and lists** - core to many problems
-5. **Know when to use which data structure**
-6. **Practice reading and analyzing code** - not just writing it
-
-### Common Pitfalls to Avoid
-
-- **Integer vs Float Division**: Use `//` for integer division
-- **String vs Bytes**: Remember `encode()` and `decode()`
-- **Mutable Default Arguments**: Don't use `def func(arg=[])`
-- **List Indexing**: Remember 0-based indexing, -1 for last
-- **Dictionary KeyError**: Use `.get()` for safe access
-- **Regex Escaping**: Use raw strings `r'...'`
-
-### Time-Saving Techniques
-
-- **F-strings** over other formatting methods
-- **Pathlib** over os.path
-- **List/dict comprehensions** when appropriate
-- **Context managers** (`with` statement) for files
-- **enumerate()** instead of range(len())
-- **join()** for string concatenation in loops
-
----
-
 ### Practice Platforms
 
-- pyWars
 - [HackerRank Python](https://www.hackerrank.com/domains/python)
 - [LeetCode](https://leetcode.com/)
 - [Project Euler](https://projecteuler.net/)
