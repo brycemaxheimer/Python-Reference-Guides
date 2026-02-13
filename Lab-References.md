@@ -16,7 +16,7 @@
 
 ## Python Fundamentals
 
-### Lab 225: List Append Return Value
+### List Append Return Value
 **Concept:** Understanding that `list.append()` returns `None`, not the modified list.
 
 **Common Mistake:**
@@ -37,7 +37,7 @@ def lab225(data):
 
 ---
 
-### Lab 229: Basic Divisibility Check
+### Basic Divisibility Check
 **Concept:** Finding numbers divisible by a given value using modulo operator.
 
 **Initial Attempt (Missing Return):**
@@ -228,7 +228,7 @@ def lab_solution(the_data):
 
 ## File I/O Operations
 
-### Lab 310: Basic File Reading
+### Basic File Reading
 **Concept:** Opening, reading, and measuring file content length.
 
 **Evolution of Solution:**
@@ -393,7 +393,7 @@ client.close()
 
 ## Registry Operations
 
-### Lab 430: Basic Registry Value Retrieval
+### Basic Registry Value Retrieval
 **Concept:** Opening Windows Registry hive and retrieving specific values.
 
 **Solution:**
@@ -420,7 +420,7 @@ def lab430(the_data):
 
 ---
 
-### Lab 431: Sorted Registry Keys
+### Sorted Registry Keys
 **Concept:** List and sort registry subkeys, return key at specific position.
 
 **Solution:**
@@ -447,7 +447,7 @@ def lab431(the_data):
 
 ---
 
-### Lab 432: Filtering Wireless Networks
+### Filtering Wireless Networks
 **Concept:** Iterate through registry subkeys, filter values by starting letter.
 
 **Problem:** Find all wireless networks starting with specific letter (case-insensitive).
@@ -488,7 +488,7 @@ def lab432(the_data):
 
 ---
 
-### Lab 433: Registry Key Path Issues
+### Registry Key Path Issues
 **Problem:** Opening registry keys that include "ROOT\\" prefix.
 
 **Error:**
